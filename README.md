@@ -30,6 +30,6 @@ Click save, and watch the theme come to life!
 
 ## Authors
 
-* **luckyystarzz** - *CSS Designer* - [luckystarz ツ](https://github.com/luckystarzz)
+* **luckyystarzz** - *Theme CSS Designer* - [luckystarz ツ](https://github.com/luckystarzz)
 
-* **Alex OP** - *Original Coder of RoGold Ultimate* - [alexop1000](https://github.com/alexop1000)
+* **Alex OP** - *Original Creator of RoGold Ultimate* - [alexop1000](https://github.com/alexop1000)
