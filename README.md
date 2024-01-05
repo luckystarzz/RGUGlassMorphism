@@ -1,2 +1,2 @@
-# RGUGlassMorphism
-The RoGold Ultimate Glass Morphism theme.
+# Glass Morphism
+The Ultimate RGU theme.
