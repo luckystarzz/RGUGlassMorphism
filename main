@@ -1,0 +1,305 @@
+.effect2:before {
+  background: radial-gradient(circle, rgb(252, 104, 111) 0%, rgb(252, 104, 111) 50%, rgb(252, 104, 111) 100%)
+}
+.effect2:after {
+  background: radial-gradient(circle, rgb(252, 104, 111) 0%, rgb(252, 104, 111) 50%, rgb(252, 104, 111) 100%)
+}
+.profile-banner.profile-banner-long {
+box-shadow: 0px 2px 20px rgba(0,0,0,.25);
+background-image: url("https://media.discordapp.net/attachments/1192530801556992045/1192562143338430614/Banner.png?ex=65a9870b&is=6597120b&hm=dfe1cefa37293ae9bf8e38f95d704768d692c46dfe300566f07fd49c906419c9&=&format=webp&quality=lossless&width=1440&height=302") !important;
+}
+.quick-play {
+background-color: #fc686f !important;
+box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+}
+.leaderboard-btn, .rewards-btn {
+  background-color: #fc686f !important;
+box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+}
+.thumbnail-2d-container img {
+    width: 100%;
+    height: 100%;
+    transition: opacity .5s ease;
+    opacity: 1;
+}
+#game-details-play-button-container button {
+   background-color: #fc686f !important;
+}
+#game-details-play-button-container button:hover {
+  box-shadow: 0px 2px 20px rgba(252, 104, 111,.25) !important;
+   transition: all .2s;
+}
+.navbar-search {
+background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.btn-growth-sm:hover {
+  background-color: #fc686f !important;
+  border-color: #fc686f !important;
+  box-shadow: 0px 2px 20px rgba(252, 104, 111,.25);
+  transition: all .2s;
+}
+.btn-growth-sm {
+  background-color: #fc686f !important;
+  border-color: #fc686f !important;
+  transition: all .2s;
+}
+.chat-header-action .notification {
+  color: #fff !important;
+  background: #fc686f !important;
+box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+}
+.store-card img {
+  border-radius:50%;
+   box-shadow: 0px 2px 20px rgba(252, 104, 111,.25);
+}
+.dark-theme .content {
+background: rgb(252,124,92);
+background: linear-gradient(45deg, rgba(252,124,92,0) 0%, rgba(252,132,92,0) 12%, rgba(252,124,92,0) 25%, rgba(252,132,84,0) 40%, rgba(252,140,70,0) 52%, rgba(252,114,99,0) 63%, rgba(252,99,112,0) 74%, rgba(252,148,71,0) 87%, rgba(253,200,48,0) 100%);
+}
+#container-main {
+background: rgb(252,124,92);
+background: linear-gradient(45deg, rgba(252,124,92,0) 0%, rgba(252,132,92,0) 12%, rgba(252,124,92,0) 25%, rgba(252,132,84,0) 40%, rgba(252,140,70,0) 52%, rgba(252,114,99,0) 63%, rgba(252,99,112,0) 74%, rgba(252,148,71,0) 87%, rgba(253,200,48,0) 100%);
+}
+#home-header.home-header-long, #container-main .section.profile-header {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+#container-main>.content {
+    background:  rgba(255, 255, 255, 0) !important;
+}
+#people-list-container .section-content, .profile-slide-container {
+   background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.game-carousel {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+#navigation {
+    background: rgba(255, 255, 255, .3) !important;
+	backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  height: 800px;
+ padding-top: 50px;
+  margin-top: 65px;
+  margin-left: 10px
+}
+#header {
+  background: rgba(252, 104, 111, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.profile-display-name {
+  text-color: #ff6000 !important;
+}
+.dark-theme {
+  background: #F37335 !important;
+}
+.dark-theme .text, scription, .dark-theme .text-footer, .dark-theme .text-info, .dark-theme .text-label, .dark-theme .text-secondary, .dark-theme p {
+  color: #fff !important;
+}
+#horizontal-tabs, .rbx-tabs-horizontal>.nav-tabs {
+    background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.rbx-tab-heading.active {
+  background: rgb(253,200,48);
+background: linear-gradient(135deg, rgba(253,200,48,1) 0%, rgba(243,115,53,1) 100%);
+}
+.game-main-content {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.fav-buttons {
+  background: rgb(255 0 127 / 21%);
+}
+.users-vote {
+  border-radius: 10px;
+  background: rgb(255 0 127 / 21%);
+}
+.game-creator .text-name {
+  color: #ffffff !important;
+}
+li.rbx-tab.active .rbx-tab-heading .text-lead, li.rbx-tab:hover .rbx-tab-heading .text-lead, .rbx-tab-heading.active .text-lead {
+  background-color: #fc686f !important;
+}
+.rank-num {
+  color: #fc686f !important;
+}
+body[data-internal-page-name=Home] .left-col-list li:nth-child(1) {
+  background-color: #fc686f !important;
+box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+}
+.left-col-list li:not([class]):hover {
+   background-color: #fc686f;
+   transition: all .2s;
+}
+.popover {
+ background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.dropdown-menu {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+body.dark-theme {
+  background: #fc686f !important;
+  text-secondary: #fff !important;
+}
+.real-game-pass {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+li.rbx-tab.active .rbx-tab-heading, li.rbx-tab:hover .rbx-tab-heading, li.rbx-tab .rbx-tab-heading.active {
+background: linear-gradient(45deg, rgba(252,124,92,0) 0%, rgba(252,132,92,0) 12%, rgba(252,124,92,0) 25%, rgba(252,132,84,0) 40%, rgba(252,140,70,0) 52%, rgba(252,114,99,0) 63%, rgba(252,99,112,0) 74%, rgba(252,148,71,0) 87%, rgba(253,200,48,0) 100%) !important;
+}
+#wrap button.btn-control-sm, #wrap .btn-control-xs {
+   background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+#wrap .btn-control-xs {
+  color: #f8f9ff !important;
+}
+.dark-theme .modal-dialog .modal-content  {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.level-up-game {
+    background: rgba(252,124,92, 0) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.group-header {
+  background-color: #fb785b;
+}
+.shout-container {
+   background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.configure-group-description textarea, .input-field {
+  background: rgba(252,124,92, 0) !important;
+	backdrop-filter: blur(10px) !important;
+  border: 2px solid #fecdb2 !important;
+}
+.group-form-button.btn-secondary-md, #group-join-button {
+  background-color: #fc686f !important;
+box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+}
+.dark-theme .chat-container .chat-main {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.chat-container:not(.collapsed) .chat-main {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.chat-header {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.chat-container.collapsed .chat-header .chat-header-label {
+    background: rgb(255 255 255 / 0%) !important;
+}
+#avatar-container .tab-horizontal-submenu {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.dark-theme .messages .messageDivider.unread  {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+  margin-bottom: 2px;
+  border-radius: 10px;
+}
+.messageDivider.read {
+  background: rgba(153, 153, 153, .35) !important;
+	backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+   margin-bottom: 2px;
+}
+.dark-theme .container-empty, .dark-theme .section-content-off {
+   background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+  margin-bottom: 2px;
+  border-radius: 10px;
+}
+.section-content-off {
+      color: #fff !important;
+}
+.dark-theme .messages .messageDivider.unread .message-summary-body .subject {
+  color: #fff !important;
+}
+.dark-theme .message-summary-content, .dark-theme .message-summary-content .subject {
+  color: #fff !important;
+}
+.dark-theme .message-detail {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+  margin-bottom: 2px;
+  border-radius: 10px;
+}
+.dark-theme .messages .messageDivider {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+  margin-bottom: 2px;
+  border-radius: 10px;
+}
+.dark-theme .catalog-container .sticky .search-bars {
+    background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+}
+.dark-theme .catalog-container .sticky .topic-container {
+   background: rgba(255, 255, 255, 0) !important;
+}
+.dark-theme .topic-container .topic-carousel .unselected-topic {
+   color: #fff !important;
+}
+h1 {
+  margin-left: 10px;
+}
+.layer {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+}
+#vertical-menu {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.rbx-tab-content .section {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.form-group .text-label, .account-previous-usernames span:first-child {
+  background: rgba(255, 255, 255, 0) !important;
+}
+.dark-theme .passkey-upsell-banner {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.rbx-tab-content .section {
+   border-radius: 10px;
+  margin-bottom: 4px;
+}
+.game-carousel, .hlist.game-cards:not(.group-list), .badge-list {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.dark-theme .section-content {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+   border-radius: 10px;
+}
+.group-wall .group-form {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.rbx-scrollbar:not(.mCS_no_scrollbar) .mCSB_inside>.mCSB_container {
+  background: rgba(255, 255, 255, .35) !important;
+	backdrop-filter: blur(10px) !important;
+}
+.mCSB_scrollTools .mCSB_draggerContainer {
+   background: rgba(255, 255, 255, 0) !important;
+}
+#navigation .avatar-headshot-xs {
+  background-color: #fc686f !important;
+}
