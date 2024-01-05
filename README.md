@@ -4,7 +4,7 @@ The ultimate RGU theme, hassle free.
 
 ## Getting Started
 
-Make sure to install the Stylish extension (which can be found here: https://chromewebstore.google.com/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe)
+Make sure to install the Stylus extension (which can be found here: https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
 ### Prerequisites
 
@@ -12,7 +12,7 @@ A subsription to RoGold Ultimate, with the extension fully setup. (buy a subscri
 
 ### Installing
 
-Install the Stylish extension (linked above)
+Install the stylus extension (linked above)
 
 Download main.css (in this repository)
 
