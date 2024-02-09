@@ -457,4 +457,73 @@
     background: rgb(255 255 255 / 50%) !important;
     border-radius: 5px;
 }
+    .dark-theme .container-footer {
+        background: rgba(255, 255, 255, 0);
+    }
+    .dark-theme .btn-growth-md:focus .btn-growth-md:hover .btn-growth-md {
+        border-color: rgba(255, 255, 255, 0);
+    }
+    .power-search {
+        background: rgba(255, 255, 255, .35) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+    .power-search .power-search-results>.power-search-game:hover {
+        background-color: #fc686f !important;
+        box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+    }
+    .btn-control-md {
+        background: rgba(255, 255, 255, .35) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+    .power-search-group .group-button {
+        background: rgba(255, 255, 255, .35) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+    .dark-theme .friends-content .avatar-card-content {
+        background: rgb(255 255 255 / 50%) !important;
+    border-radius: 5px;
+    }
+    .dark-theme .avatar-card-btns {
+        background: rgb(255 255 255 / 50%) !important;
+        border-radius: 5px;
+    }
+    .btn-secondary-md {
+        background-color: #ff7700 !important;
+        box-shadow: 0px 2px 20px #f70 !important;
+    }
+    .dark-theme .avatar-card-btns .accept-friend, .dark-theme .avatar-card-btns .accept-friend:hover .accept-friend:focus {
+        background-color: #fc686f !important;
+        box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+        color: #fff !important;
+    }
+    .dark-theme .avatar-card-btns .accept-friend:focus, .dark-theme .avatar-card-btns .accept-friend:hover {
+        color: #fff !important;
+    }
+    .header-details {
+        background: rgb(255 255 255 / 50%) !important;
+        border-radius: 5px;
+    }
+    .rbx-tab-content .section, .tab-pane {
+    background: rgb(255 255 255 / 0%) !important;
+    }
+    .section.profile-about.ng-scope {
+    background-color: #c9c9c900 !important;
+    }
+    .dark-theme .section-content {
+    background: rgb(255 255 255 / 0%) !important;
+    }
+    .canvas-bg {
+        background: rgb(255 255 255 / 50%) !important;
+        border-radius: 5px;
+    }
+    .slide-switcher {
+        background: rgb(255 255 255 / 50%) !important;
+        border-radius: 5px;
+    }
+    .dark-theme .btn-growth-md:focus, .dark-theme .btn-growth-md:hover {
+    border-color: #00b06f00;
+    }
+    .dark-theme .avatar-card-container {
+    background-color: #393b3d00;
+    }
 }
