@@ -14,22 +14,24 @@ A subsription to RoGold Ultimate, with the extension fully setup. (buy a subscri
 
 Install the stylus extension (linked above)
 
-Download main.css (in this repository)
+Open main.css in Github
 
-Go to your extensions menu, and click the stylish icon
+Open metadata.xml in Github
 
-Navigate to the "Editor" tab
+Navigate to roblox.com
 
-Type in whatever name you would like
+Go to your extensions menu, and click the stylus icon
 
-Next to the "Domains" button, type in roblox.com
+Click 'Write new style for site'
 
-Paste the code from main.css into the "Code" box
+Paste the text from metadata.xml into the top box
+
+Paste the text from main.css into the bottom box
 
 Click save, and watch the theme come to life!
 
 ## Authors
 
-* **luckyystarzz** - *Theme CSS Designer* - [luckystarz ツ](https://github.com/luckystarzz)
+* **valk_ryx** - *Theme CSS Designer* - [luckystarz ツ](https://github.com/luckystarzz)
 
 * **Alex OP** - *Original Creator of RoGold Ultimate* - [alexop1000](https://github.com/alexop1000)
