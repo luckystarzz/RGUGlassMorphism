@@ -32,6 +32,6 @@ Click save, and watch the theme come to life!
 
 ## Authors
 
-* **valk_ryx** - *Theme CSS Designer* - [luckystarz ツ](https://github.com/luckystarzz)
+* **valk_ryx** - *Theme CSS Designer* - [luckystarz ツ](https://github.com/valk-ryx)
 
 * **Alex OP** - *Original Creator of RoGold Ultimate* - [alexop1000](https://github.com/alexop1000)
