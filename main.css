@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://www.roblox.com") {
     .effect2:before {
         background: radial-gradient(circle, rgb(252, 104, 111) 0%, rgb(252, 104, 111) 50%, rgb(252, 104, 111) 100%)
     }
@@ -455,4 +456,5 @@
     ::-webkit-scrollbar-thumb {
     background: rgb(255 255 255 / 50%) !important;
     border-radius: 5px;
+}
 }
