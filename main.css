@@ -1,4 +1,5 @@
-    .effect2:before {
+@-moz-document url-prefix("https://www.roblox.com") {
+.effect2:before {
         background: radial-gradient(circle, rgb(252, 104, 111) 0%, rgb(252, 104, 111) 50%, rgb(252, 104, 111) 100%)
     }
     .effect2:after {
@@ -525,3 +526,4 @@
     .dark-theme .avatar-card-container {
     background-color: #393b3d00;
     }
+}
