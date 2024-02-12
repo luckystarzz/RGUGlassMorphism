@@ -1,6 +1,6 @@
-# Glass Morphism
+# Development Edition
 
-The ultimate RGU theme, hassle free.
+Do not use this version if you do not want to encounter bugs, anything in this version is WIP!
 
 ## Getting Started
 
@@ -38,6 +38,6 @@ Click save, and watch the theme come to life!
 
 ## Authors
 
-* **valk_ryx** - *Theme CSS Designer* - [valk_ryx](https://github.com/valk-ryx)
+* **Valkryx** - *Theme CSS Designer* - [valk_ryx](https://github.com/valk-ryx)
 
 * **Alex OP** - *Original Creator of RoGold Ultimate* - [alexop1000](https://github.com/alexop1000)
