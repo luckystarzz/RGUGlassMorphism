@@ -1,6 +1,6 @@
 # Glass Morphism
 
-The ultimate RGU theme, hassle free.
+The beautiful design language of Glassmorphism, brought to Roblox through CSS.
 
 ## Getting Started
 
