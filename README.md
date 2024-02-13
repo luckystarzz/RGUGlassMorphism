@@ -14,7 +14,7 @@ A subsription to RoGold Ultimate, with the extension fully setup. (buy a subscri
 
 Install the stylus extension (linked above)
 
-Open rgu-glassmorphism.user.styl through Github
+Open rgu-glassmorphism-dev.user.styl through Github
 
 Click the 'Raw' button
 
