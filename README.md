@@ -1,5 +1,7 @@
 # Glass Morphism
+
 ![image](https://github.com/valk-ryx/RGUGlassMorphism/assets/101418865/35a1ec4b-fac4-4c44-a0cc-ca5665453cfa)
+
 The ultimate RGU theme, hassle free.
 
 ## Getting Started
