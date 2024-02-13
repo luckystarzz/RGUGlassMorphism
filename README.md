@@ -20,9 +20,17 @@ Install the theme via userstyles.world: https://userstyles.world/style/14077/rog
 
 Install the stylus extension (linked above)
 
-Open main.css in Github
+Open rgu-glassmorphism.user.styl through Github
 
-Open metadata.xml in Github
+Click the 'Raw' button
+
+Click the 'Install' button (if a page doesn't automatically pop up, check if you installed Stylus correctly)
+
+### OR
+
+Install the stylus extension (linked above)
+
+Open main.css in Github
 
 Navigate to roblox.com
 
@@ -30,14 +38,14 @@ Go to your extensions menu, and click the stylus icon
 
 Click 'Write new style for site'
 
-Paste the text from metadata.xml into the top box
+Paste the text from main.css into the box
 
-Paste the text from main.css into the bottom box
+Name the style whatever you want
 
 Click save, and watch the theme come to life!
 
 ## Authors
 
-* **valk_ryx** - *Theme CSS Designer* - [valk_ryx](https://github.com/valk-ryx)
+* **Valkryx** - *Theme CSS Designer* - [valk_ryx](https://github.com/valk-ryx)
 
 * **Alex OP** - *Original Creator of RoGold Ultimate* - [alexop1000](https://github.com/alexop1000)
