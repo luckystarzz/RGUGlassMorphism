@@ -781,34 +781,87 @@
         backdrop-filter: blur(10px) !important;
     }
 
- .dark-theme .dropdown-menu li {
-    color: #ffffff;
-}
+ /* WIP THINGS */
+    .dark-theme .dropdown-menu li {
+        color: #ffffff;
+    }
+
     .comment.list-item {
         background: rgba(255, 255, 255, .35) !important;
         backdrop-filter: blur(10px) !important;
     }
 
-    .dark-theme .container-empty, .dark-theme .section-content-off {
-    color: #ffffff;
-}
+    .dark-theme .container-empty,
+    .dark-theme .section-content-off {
+        color: #ffffff;
+    }
 
-    .dark-theme .text, .dark-theme .text-date-hint, .dark-theme .text-default, .dark-theme .text-description, .dark-theme .text-footer, .dark-theme .text-info, .dark-theme .text-label, .dark-theme .text-secondary, .dark-theme p {
-    color: #ff5d00;
-}
+    .dark-theme .text,
+    .dark-theme .text-date-hint,
+    .dark-theme .text-default,
+    .dark-theme .text-description,
+    .dark-theme .text-footer,
+    .dark-theme .text-info,
+    .dark-theme .text-label,
+    .dark-theme .text-secondary,
+    .dark-theme p {
+        color: #ff5d00;
+    }
 
     .dark-theme .carousel-control {
-    background-color: #fc686f;
-    border-color: #fc686f;
-}
+        background-color: #fc686f;
+        border-color: #fc686f;
+    }
 
     .dark-theme .carousel-control:hover {
-    background-color: #fc686f;
-    border-color: #fc686f;
-    box-shadow: 0px 2px 20px rgb(252 104 111) !important;
-}
+        background-color: #fc686f;
+        border-color: #fc686f;
+        box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+    }
 
     .profile-view-selector {
         background: #fc686f !important;
+    }
+
+    .dark-theme .notification-stream-header,
+    .notification-stream-header.dark-theme {
+        background-color: #fc686f !important;
+    }
+
+    .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body,
+    .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .container-empty,
+    .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-loading {
+        background-color: #11121400 !important;
+    }
+
+    .dark-theme #buy-robux-popover-menu li a,
+    .dark-theme #settings-popover-menu li a {
+        color: #ffffff;
+    }
+
+    .search-options-form input.input-field,
+    .search-options-form .btn-update-filter {
+        background: rgba(255, 255, 255, .35) !important;
+        backdrop-filter: blur(10px) !important;
+        color: rgb(255 255 255) !important;
+    }
+
+    .dark-theme .radio label:before {
+        background-color: #fc686f !important;
+        border: 0px solid #fff !important;
+        box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+    }
+
+    .dark-theme .topic-container .topic-carousel .selected-topic,
+    .light-theme .topic-container .topic-carousel .selected-topic {
+        background-color: #fc686f !important;
+        box-shadow: 0px 2px 20px rgb(252 104 111) !important;
+        color: #fff !important;
+    }
+
+    #item-details .price-row-container:not(:has(.text-robux-lg.disabled)) .price-container-text .price-info > .item-purchase-btns-container .PurchaseButton {
+        background: #ff9d00 !important;
+        box-shadow: 0px 2px 20px #ff9d00 !important;
+        border: 0px solid #fff !important;
     }
 }
