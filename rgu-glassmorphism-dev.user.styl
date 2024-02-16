@@ -22,7 +22,7 @@
     :root {
         --hexAccent: /*[[hexAccent]]*/;
         --rgbAccent: /*[[rgbAccent]]*/;
-        --bannerUrl: /*[[customBanner]]*/;
+        --bannerUrl: url(/*[[customBanner]]*/);
         --bg1: /*[[bg1]]*/;
         --bg2: /*[[bg2]]*/;
         --bg3: /*[[bg3]]*/;
@@ -42,7 +42,7 @@
     }
     .profile-banner.profile-banner-long {
         box-shadow: 0px 2px 20px #ffa455 !important;
-        background-image: url("https://github.com/valk-ryx/RGUGlassMorphism/blob/developer-preview/themeassets/banner.png?raw=true") !important;
+        background-image: var(--bannerUrl) !important;
     }
     .quick-play {
         background-color: var(--hexAccent) !important;
