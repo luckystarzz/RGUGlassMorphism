@@ -4,8 +4,9 @@
 @description  In-dev version of RGU Glassmorphism (potentially unstable)
 @license CC BY-NC-SA 4.0
 @version 1.1.0-dev
-@advanced color hexAccent " Accent Color (HEX) " #fc686f
-@advanced color rgbAccent " Accent Color (RGB) " rgb(252, 104, 111)
+@advanced color hexAccent " Accent Color 1 (HEX) " #fc686f
+@advanced color rgbAccent " Accent Color 1 (RGB) " rgb(252, 104, 111)
+@advanced text customBanner " Custom Banner (URL) " "https://github.com/valk-ryx/RGUGlassMorphism/blob/developer-preview/themeassets/banner.png?raw=true"
 @advanced color bg1 " Background Color 1 " rgba(252, 124, 92, 1)
 @advanced color bg2 " Background Color 2 " rgba(252, 132, 92, 1)
 @advanced color bg3 " Background Color 3 " rgba(252, 124, 92, 1)
@@ -21,6 +22,7 @@
     :root {
         --hexAccent: /*[[hexAccent]]*/;
         --rgbAccent: /*[[rgbAccent]]*/;
+        --bannerUrl: /*[[customBanner]]*/;
         --bg1: /*[[bg1]]*/;
         --bg2: /*[[bg2]]*/;
         --bg3: /*[[bg3]]*/;
@@ -40,7 +42,7 @@
     }
     .profile-banner.profile-banner-long {
         box-shadow: 0px 2px 20px #ffa455 !important;
-        background-image: url("https://media.discordapp.net/attachments/1192530801556992045/1192562143338430614/Banner.png?ex=65a9870b&is=6597120b&hm=dfe1cefa37293ae9bf8e38f95d704768d692c46dfe300566f07fd49c906419c9&=&format=webp&quality=lossless&width=1440&height=302") !important;
+        background-image: url("https://github.com/valk-ryx/RGUGlassMorphism/blob/developer-preview/themeassets/banner.png?raw=true") !important;
     }
     .quick-play {
         background-color: var(--hexAccent) !important;
