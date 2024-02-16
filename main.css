@@ -1,9 +1,12 @@
 @-moz-document domain("roblox.com") {
 
+    /* Root Variables */
     :root {
         --hexAccent: /*[[hexAccent]]*/;
         --rgbAccent: /*[[rgbAccent]]*/;
+        --accent2: /*[[accent2]]*/;
         --bannerUrl: url(/*[[customBanner]]*/);
+        --bannerGlowColor: /*[[bannerGlowColor]]*/;
         --bg1: /*[[bg1]]*/;
         --bg2: /*[[bg2]]*/;
         --bg3: /*[[bg3]]*/;
@@ -15,6 +18,7 @@
         --bg9: /*[[bg9]]*/;
     }
 
+    /* Main CSS */
     .effect2:before {
         background: radial-gradient(circle, var(--rgbAccent) 0%, var(--rgbAccent) 50%, var(--rgbAccent) 100%)
     }
@@ -22,7 +26,7 @@
         background: radial-gradient(circle, var(--rgbAccent) 0%, var(--rgbAccent) 50%, var(--rgbAccent) 100%)
     }
     .profile-banner.profile-banner-long {
-        box-shadow: 0px 2px 20px #ffa455 !important;
+        box-shadow: 0px 2px 20px var(--bannerGlowColor) !important;
         background-image: var(--bannerUrl) !important;
     }
     .quick-play {
@@ -509,8 +513,8 @@
         border-radius: 5px;
     }
     .btn-secondary-md {
-        background-color: #ff7700 !important;
-        box-shadow: 0px 2px 20px #f70 !important;
+        background-color: var(--accent2) !important;
+        box-shadow: 0px 2px 20px var(--accent2) !important;
     }
     .dark-theme .avatar-card-btns .accept-friend,
     .dark-theme .avatar-card-btns .accept-friend:hover .accept-friend:focus {
@@ -678,7 +682,7 @@
     .dark-theme .text-label,
     .dark-theme .text-secondary,
     .dark-theme p {
-        color: #ff5d00;
+        color: var(--accent2);
     }
     .dark-theme .carousel-control {
         background-color: var(--hexAccent);
@@ -723,8 +727,8 @@
         color: #fff !important;
     }
     #item-details .price-row-container:not(:has(.text-robux-lg.disabled)) .price-container-text .price-info > .item-purchase-btns-container .PurchaseButton {
-        background: #ff9d00 !important;
-        box-shadow: 0px 2px 20px #ff9d00 !important;
+        background: var(--accent2) !important;
+        box-shadow: 0px 2px 20px var(--accent2) !important;
         border: 0px solid #fff !important;
     }
     .rogold-back {
@@ -735,5 +739,73 @@
     .btn-control-sm:not(.verify-identity-button) {
         background-color: var(--hexAccent) !important;
         box-shadow: 0px 2px 20px var(--rgbAccent) !important;
+    }
+    .dark-theme .request-error-page-content .default-error-page {
+        background: rgba(255, 255, 255, .35) !important;
+        backdrop-filter: blur(10px) !important;
+        border-radius: 8px !important;
+    }
+    .dark-theme .btn-primary-lg:focus, .dark-theme .btn-primary-lg:hover {
+        background-color: var(--hexAccent) !important;
+        box-shadow: 0px 2px 20px var(--rgbAccent) !important;
+        border-color: var(--hexAccent) !important;
+        transition: all .2s;
+    }
+    .dark-theme .btn-primary-lg {
+        background: rgba(255, 255, 255, .35) !important;
+        backdrop-filter: blur(10px) !important;
+        border-color: #fff0 !important;
+        color: #fff !important;
+    }
+    .modal-dialog .modal-content .modal-header .close:hover {
+        transform: scale(0.95);
+    }
+    .dark-theme .btn-growth-lg:focus, .dark-theme .btn-growth-lg:hover {
+        background-color: var(--hexAccent) !important;
+        border-color: var(--hexAccent) !important;
+        box-shadow: 0px 2px 20px var(--rgbAccent) !important;
+        transition: all .2s;
+    }
+    .dark-theme .btn-growth-lg {
+        background-color: var(--hexAccent) !important;
+        border-color: var(--hexAccent) !important;
+    }
+    .grid-item-container>a .game-card-thumb-container img:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    .grid-item-container>a .game-card-thumb-container img {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .dark-theme .game-card-container .game-card-thumb-container {
+    background-color: rgb(255 255 255 / 0%) !important;
+}
+    .game-card-thumb-container:before {
+        background-color: rgb(255 255 255 / 0%) !important;
+    }
+    .dark-theme .avatar-container .avatar-card-image, .dark-theme .avatar-container img:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    .dark-theme .avatar-container .avatar-card-image, .dark-theme .avatar-container img {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .leaderboard-btn:hover, .rewards-btn:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    .leaderboard-btn, .rewards-btn {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .nav-logout a:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    .nav-logout a {
+        transform: scale(1);
+        transition: all .2s;
     }
 }
