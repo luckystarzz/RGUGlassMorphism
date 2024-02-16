@@ -2,6 +2,9 @@
 
 The beautiful design language of Glassmorphism, brought to Roblox through CSS.
 
+# Licensing:
+[RGU Glassmorphism](https://github.com/valk-ryx/RGUGlassMorphism) © 2024 [valk_ryx](https://github.com/valk-ryx) is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1) 
+
 ## Getting Started
 
 Make sure to install the Stylus extension (which can be found here: https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
