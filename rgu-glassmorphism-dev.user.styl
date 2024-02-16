@@ -4,15 +4,21 @@
 @description  In-dev version of RGU Glassmorphism (potentially unstable)
 @license CC BY-NC-SA 4.0
 @version 1.1.0-dev
-@advanced color accentColor " Accent Color " #fc686f
+@advanced color hexAccent " Accent Color (HEX) " #fc686f
+@advanced color rgbAccent " Accent Color (RGB) " rgb(252, 104, 111)
 ==/UserStyle== */
 @-moz-document domain("roblox.com") {
-    .effect2:before {
-        background: radial-gradient(circle, rgb(252, 104, 111) 0%, rgb(252, 104, 111) 50%, rgb(252, 104, 111) 100%)
-    }
 
+        :root {
+    --hexAccent: /*[[hexAccent]]*/;
+    --rgbAccent: /*[[rgbAccent]]*/;
+}
+    
+    .effect2:before {
+        background: radial-gradient(circle, var(--rgbAccent) 0%, var(--rgbAccent) 50%, var(--rgbAccent) 100%)
+    }
     .effect2:after {
-        background: radial-gradient(circle, rgb(252, 104, 111) 0%, rgb(252, 104, 111) 50%, rgb(252, 104, 111) 100%)
+        background: radial-gradient(circle, var(--rgbAccent) 0%, var(--rgbAccent) 50%, var(--rgbAccent) 100%)
     }
 
     .profile-banner.profile-banner-long {
