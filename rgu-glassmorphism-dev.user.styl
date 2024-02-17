@@ -65,10 +65,13 @@
         opacity: 1;
     }
     #game-details-play-button-container button {
-        background-color: var(--hexAccent) !important;
+        background-color: var(--accent2) !important;
+        transform: scale(1);
+        transition: all .2s;
     }
     #game-details-play-button-container button:hover {
-        box-shadow: 0px 2px 20px var(--rgbAccent) !important;
+        box-shadow: 0px 2px 20px var(--accent2) !important;
+        transform: scale(0.95);
         transition: all .2s;
     }
     .navbar-search {
@@ -78,12 +81,14 @@
     .btn-growth-sm:hover {
         background-color: var(--hexAccent) !important;
         border-color: var(--hexAccent) !important;
+        transform: scale(0.95);
         box-shadow: 0px 2px 20px var(--rgbAccent) !important;
         transition: all .2s;
     }
     .btn-growth-sm {
         background-color: var(--hexAccent) !important;
         border-color: var(--hexAccent) !important;
+        transform: scale(1);
         transition: all .2s;
     }
     .chat-header-action .notification {
@@ -156,11 +161,11 @@
         backdrop-filter: blur(10px) !important;
     }
     .fav-buttons {
-        background: rgb(255 0 127 / 21%);
+        background: var(--accent2)
     }
     .users-vote {
         border-radius: 10px;
-        background: rgb(255 0 127 / 21%);
+        background: var(--accent2);
     }
     .game-creator .text-name {
         color: #ffffff !important;
@@ -376,7 +381,13 @@
     }
     .dark-theme .btn-growth-md {
         background-color: var(--hexAccent) !important;
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .dark-theme .btn-growth-md:hover {
         box-shadow: 0px 2px 20px var(--rgbAccent) !important;
+        transform: scale(0.95);
+        transition: all .2s;
     }
     .rbx-navbar.hidden-xs li:nth-child(1):hover {
         background-color: var(--hexAccent) !important;
@@ -463,9 +474,12 @@
         background-color: var(--hexAccent) !important;
         border-color: var(--hexAccent) !important;
         color: #fff !important;
+        transform: scale(1);
+        transition: all .2s;
     }
     .dark-theme .btn-primary-md:hover {
         box-shadow: 0px 2px 20px var(--rgbAccent) !important;
+        transform: scale(0.95);
         transition: all .2s;
     }
     .dark-theme .shopping-cart-modal-container .shopping-cart-modal {
@@ -534,7 +548,13 @@
     }
     .btn-secondary-md {
         background-color: var(--accent2) !important;
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .btn-secondary-md:hover {
         box-shadow: 0px 2px 20px var(--accent2) !important;
+        transform: scale(0.95);
+        transition: all .2s;
     }
     .dark-theme .avatar-card-btns .accept-friend,
     .dark-theme .avatar-card-btns .accept-friend:hover .accept-friend:focus {
@@ -765,7 +785,8 @@
         backdrop-filter: blur(10px) !important;
         border-radius: 8px !important;
     }
-    .dark-theme .btn-primary-lg:focus, .dark-theme .btn-primary-lg:hover {
+    .dark-theme .btn-primary-lg:focus,
+    .dark-theme .btn-primary-lg:hover {
         background-color: var(--hexAccent) !important;
         box-shadow: 0px 2px 20px var(--rgbAccent) !important;
         border-color: var(--hexAccent) !important;
@@ -779,8 +800,14 @@
     }
     .modal-dialog .modal-content .modal-header .close:hover {
         transform: scale(0.95);
+        transition: all .2s;
     }
-    .dark-theme .btn-growth-lg:focus, .dark-theme .btn-growth-lg:hover {
+    .modal-dialog .modal-content .modal-header .close {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .dark-theme .btn-growth-lg:focus,
+    .dark-theme .btn-growth-lg:hover {
         background-color: var(--hexAccent) !important;
         border-color: var(--hexAccent) !important;
         box-shadow: 0px 2px 20px var(--rgbAccent) !important;
@@ -790,33 +817,37 @@
         background-color: var(--hexAccent) !important;
         border-color: var(--hexAccent) !important;
     }
-    .grid-item-container>a .game-card-thumb-container img:hover {
+    .grid-item-container > a .game-card-thumb-container img:hover {
         transform: scale(0.95);
         transition: all .2s;
     }
-    .grid-item-container>a .game-card-thumb-container img {
+    .grid-item-container > a .game-card-thumb-container img {
         transform: scale(1);
         transition: all .2s;
     }
     .dark-theme .game-card-container .game-card-thumb-container {
-    background-color: rgb(255 255 255 / 0%) !important;
-}
+        background-color: rgb(255 255 255 / 0%) !important;
+    }
     .game-card-thumb-container:before {
         background-color: rgb(255 255 255 / 0%) !important;
     }
-    .dark-theme .avatar-container .avatar-card-image, .dark-theme .avatar-container img:hover {
+    .dark-theme .avatar-container .avatar-card-image,
+    .dark-theme .avatar-container img:hover {
         transform: scale(0.95);
         transition: all .2s;
     }
-    .dark-theme .avatar-container .avatar-card-image, .dark-theme .avatar-container img {
+    .dark-theme .avatar-container .avatar-card-image,
+    .dark-theme .avatar-container img {
         transform: scale(1);
         transition: all .2s;
     }
-    .leaderboard-btn:hover, .rewards-btn:hover {
+    .leaderboard-btn:hover,
+    .rewards-btn:hover {
         transform: scale(0.95);
         transition: all .2s;
     }
-    .leaderboard-btn, .rewards-btn {
+    .leaderboard-btn,
+    .rewards-btn {
         transform: scale(1);
         transition: all .2s;
     }
@@ -828,4 +859,95 @@
         transform: scale(1);
         transition: all .2s;
     }
+    #wrap button.btn-control-sm,
+    #wrap .btn-control-xs {
+        - transform: scale(1);
+        transition: all .2s;
+    }
+    #wrap button.btn-control-sm:hover,
+    #wrap:hover .btn-control-xs:hover {
+        - transform: scale(0.95);
+        transition: all .2s;
+    }
+    .store-card-footer {
+        background: var(--hexAccent) !important;
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .store-card-footer:hover {
+        background: var(--hexAccent) !important;
+        transform: scale(0.95);
+        box-shadow: 0px 2px 20px var(--rgbAccent) !important;
+        transition: all .2s;
+    }
+    .store-card img {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .store-card img:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    .badge-image img,
+    .badge-image,
+    .badge-image .thumbnail-2d-container,
+    .badge-image thumbnail-2d:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    .badge-image img,
+    .badge-image,
+    .badge-image .thumbnail-2d-container,
+    .badge-image thumbnail-2d {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .related-asset-container .asset-thumbnail img:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    .related-asset-container .asset-thumbnail img {
+        transform: scale(1);
+        border-radius: 5px;
+        transition: all .2s;
+    }
+    .btn-alert-md {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .btn-alert-md:hover {
+        transform: scale(0.95);
+        box-shadow: 0px 2px 20px #ff4856 !important;
+        transition: all .2s;
+    }
+    #creations .item-list img {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    #creations .item-list img:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    .btn-control-md:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    .btn-control-md {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .pager li:nth-child(2) > span {
+        background: var(--hexAccent)
+    }
+        .customize-btn {
+            transform: scale(1);
+            transition: all .2s;
+        }
+        .customize-btn:hover {
+            transform: scale(0.95);
+            transition: all .2s;
+        }
+        #discover-categories>.section>.game-list>.game-entry .game-details .play-btn {
+            background: var(--hexAccent)
+        }
 }
