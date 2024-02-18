@@ -5,6 +5,9 @@
         --hexAccent: /*[[hexAccent]]*/;
         --rgbAccent: /*[[rgbAccent]]*/;
         --accent2: /*[[accent2]]*/;
+        --playingColor: /*[[playingColor]]*/;
+        --onlineColor: /*[[onlineColor]]*/;
+        --studioColor: /*[[studioColor]]*/;
         --bannerUrl: url(/*[[customBanner]]*/);
         --bannerGlowColor: /*[[bannerGlowColor]]*/;
         --bg1: /*[[bg1]]*/;
@@ -620,7 +623,7 @@
     }
     .dark-theme .thumbnail-2d-container {
         border: 0;
-        background-color: rgb(255 194 173);
+        background-color: var(--thumbnailBGColor);
         border-color: #ffffff;
     }
     .dark-theme .stack .stack-list .stack-row {
@@ -919,23 +922,47 @@
     .pager li:nth-child(2) > span {
         background: var(--hexAccent)
     }
-        .customize-btn {
-            transform: scale(1);
-            transition: all .2s;
-        }
-        .customize-btn:hover {
-            transform: scale(0.95);
-            transition: all .2s;
-        }
-        #discover-categories>.section>.game-list>.game-entry .game-details .play-btn {
-            background: var(--hexAccent)
-        }
-        .thumbnail-2d-container img {
-            transform: scale(1);
-            transition: all .2s;
-        }
-        .thumbnail-2d-container img:hover {
-            transform: scale(0.95);
-            transition: all .2s;
-        }
+    .customize-btn {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .customize-btn:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    #discover-categories > .section > .game-list > .game-entry .game-details .play-btn {
+        background: var(--hexAccent)
+    }
+    .thumbnail-2d-container img {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .thumbnail-2d-container img:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    button.btn-sm {
+        background-color: var(--hexAccent) !important;
+        border: 0px solid var(--hexAccent) !important;
+    }
+    .profile-container .asset-item span[title] {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .profile-container .asset-item span[title]:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    #HomeContainer .profile-display-name {
+        color: var(--hexAccent) !important;
+    }
+        .is-studio {
+    border: 3px solid var(--studioColor) !important;      
+}
+        .is-play {
+    border: 3px solid var(--playingColor) !important;
+}
+        .is-online {
+    border: 3px solid var(--onlineColor) !important;
+}
 }
