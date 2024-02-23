@@ -2,7 +2,7 @@
 @name RGU Glassmorphism
 @namespace roblox.com
 @description A custom glassmorphism based theme for RoGold Ultimate!
-@version 1.1.1
+@version 1.1.2
 @license CC BY-NC-SA 4.0
 @advanced color hexAccent " Accent Color 1 (HEX) " #fc686f
 @advanced color rgbAccent " Accent Color 1 (RGB) " rgb(252, 104, 111)
@@ -10,6 +10,7 @@
 @advanced color playingColor " Status Color: Playing Game " #00ff4f
 @advanced color onlineColor " Status Color: Online " #00aaff
 @advanced color studioColor " Status Color: In Studio " #ffa600
+@advanced color thumbBG " Image Thumbnail Background Color " #fecdb2
 @advanced text customBanner " Custom Banner (URL) " "https://github.com/valk-ryx/RGUGlassMorphism/blob/developer-preview/themeassets/banner.png?raw=true"
 @advanced color bannerGlowColor " Banner Glow (HEX or RGB) " #ffa455
 @advanced color bg1 " Background Color 1 " rgba(252, 124, 92, 1)
@@ -32,6 +33,7 @@
         --playingColor: /*[[playingColor]]*/;
         --onlineColor: /*[[onlineColor]]*/;
         --studioColor: /*[[studioColor]]*/;
+        --thumbBG: /*[[thumbBG]]*/;
         --bannerUrl: url(/*[[customBanner]]*/);
         --bannerGlowColor: /*[[bannerGlowColor]]*/;
         --bg1: /*[[bg1]]*/;
@@ -647,8 +649,8 @@
     }
     .dark-theme .thumbnail-2d-container {
         border: 0;
-        background-color: var(--thumbnailBGColor);
-        border-color: #ffffff;
+        background-color: var(--thumbBG);
+        border-color: var(--thumbBG);
     }
     .dark-theme .stack .stack-list .stack-row {
         background: rgba(255, 255, 255, .35) !important;
@@ -708,7 +710,6 @@
         background: rgb(255 255 255 / .35) !important;
         backdrop-filter: blur(10px) !important;
     }
-    /* WIP THINGS */
     .dark-theme .dropdown-menu li {
         color: #ffffff;
     }
@@ -988,5 +989,29 @@
 }
         .is-online {
     border: 3px solid var(--onlineColor) !important;
+}
+        @keyframes wobble {
+  0% {
+    transform: rotate(0deg)
+  }
+  30% {
+    transform: rotate(-30deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+.icon-logo-r-95,
+.dark-theme .icon-logo-r-95 {
+    animation: wobble 2s infinite;
+}
+        .dark-theme .avatar-container .avatar-card-image, .dark-theme .avatar-container img {
+            background-color: var(--thumbBG) !important;
+        }
+        .game-card-thumb-container:before {
+            background: rgba(255,255,255, 0)
+        }
+        .game-card-container:hover .game-card-thumb-container:before {
+    opacity: 1 !important;
 }
 }
