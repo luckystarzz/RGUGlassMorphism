@@ -8,6 +8,7 @@
         --playingColor: /*[[playingColor]]*/;
         --onlineColor: /*[[onlineColor]]*/;
         --studioColor: /*[[studioColor]]*/;
+        --thumbBG: /*[[thumbBG]]*/;
         --bannerUrl: url(/*[[customBanner]]*/);
         --bannerGlowColor: /*[[bannerGlowColor]]*/;
         --bg1: /*[[bg1]]*/;
@@ -623,8 +624,8 @@
     }
     .dark-theme .thumbnail-2d-container {
         border: 0;
-        background-color: var(--thumbnailBGColor);
-        border-color: #ffffff;
+        background-color: var(--thumbBG);
+        border-color: var(--thumbBG);
     }
     .dark-theme .stack .stack-list .stack-row {
         background: rgba(255, 255, 255, .35) !important;
@@ -684,7 +685,6 @@
         background: rgb(255 255 255 / .35) !important;
         backdrop-filter: blur(10px) !important;
     }
-    /* WIP THINGS */
     .dark-theme .dropdown-menu li {
         color: #ffffff;
     }
@@ -964,5 +964,29 @@
 }
         .is-online {
     border: 3px solid var(--onlineColor) !important;
+}
+        @keyframes wobble {
+  0% {
+    transform: rotate(0deg)
+  }
+  30% {
+    transform: rotate(-30deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+.icon-logo-r-95,
+.dark-theme .icon-logo-r-95 {
+    animation: wobble 2s infinite;
+}
+        .dark-theme .avatar-container .avatar-card-image, .dark-theme .avatar-container img {
+            background-color: var(--thumbBG) !important;
+        }
+        .game-card-thumb-container:before {
+            background: rgba(255,255,255, 0)
+        }
+        .game-card-container:hover .game-card-thumb-container:before {
+    opacity: 1 !important;
 }
 }
