@@ -2,11 +2,16 @@
 @name RGU Glassmorphism - Developer Edition
 @namespace roblox.com
 @description Development Version of RGU Glassmorphism
-@version 1.1.0-dev
+@version 1.2.0-dev
 @advanced color hexAccent " Accent Color 1 (HEX) " #fc686f
 @advanced color rgbAccent " Accent Color 1 (RGB) " rgb(252, 104, 111)
 @advanced color accent2 " Accent Color 2 (HEX or RGB) " #ff9200
+@advanced color playingColor " Status Color: Playing Game " #00ff4f
+@advanced color onlineColor " Status Color: Online " #00aaff
+@advanced color studioColor " Status Color: In Studio " #ffa600
+@advanced color thumbBG " Image Thumbnail Background Color " #fecdb2
 @advanced text customBanner " Custom Banner (URL) " "https://github.com/valk-ryx/RGUGlassMorphism/blob/developer-preview/themeassets/banner.png?raw=true"
+@advanced text avatarBG " Avatar Editor Background (URL) " "https://github.com/valk-ryx/RGUGlassMorphism/blob/developer-preview/themeassets/beach-shore-sunset-vibe-fpxcln8g139syekx.jpeg?raw=true"
 @advanced color bannerGlowColor " Banner Glow (HEX or RGB) " #ffa455
 @advanced color bg1 " Background Color 1 " rgba(252, 124, 92, 1)
 @advanced color bg2 " Background Color 2 " rgba(252, 132, 92, 1)
@@ -25,7 +30,12 @@
         --hexAccent: /*[[hexAccent]]*/;
         --rgbAccent: /*[[rgbAccent]]*/;
         --accent2: /*[[accent2]]*/;
+        --playingColor: /*[[playingColor]]*/;
+        --onlineColor: /*[[onlineColor]]*/;
+        --studioColor: /*[[studioColor]]*/;
+        --thumbBG: /*[[thumbBG]]*/;
         --bannerUrl: url(/*[[customBanner]]*/);
+        --avatarBG: url(/*[[avatarBG]]*/);
         --bannerGlowColor: /*[[bannerGlowColor]]*/;
         --bg1: /*[[bg1]]*/;
         --bg2: /*[[bg2]]*/;
@@ -214,8 +224,7 @@
     }
     #wrap button.btn-control-sm,
     #wrap .btn-control-xs {
-        background: rgba(255, 255, 255, .35) !important;
-        backdrop-filter: blur(10px) !important;
+        background: var(--rgbAccent)
     }
     #wrap .btn-control-xs {
         color: #f8f9ff !important;
@@ -640,8 +649,8 @@
     }
     .dark-theme .thumbnail-2d-container {
         border: 0;
-        background-color: rgb(255 194 173);
-        border-color: #ffffff;
+        background-color: var(--thumbBG);
+        border-color: var(--thumbBG);
     }
     .dark-theme .stack .stack-list .stack-row {
         background: rgba(255, 255, 255, .35) !important;
@@ -701,7 +710,6 @@
         background: rgb(255 255 255 / .35) !important;
         backdrop-filter: blur(10px) !important;
     }
-    /* WIP THINGS */
     .dark-theme .dropdown-menu li {
         color: #ffffff;
     }
@@ -939,15 +947,121 @@
     .pager li:nth-child(2) > span {
         background: var(--hexAccent)
     }
-        .customize-btn {
-            transform: scale(1);
-            transition: all .2s;
+    .customize-btn {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .customize-btn:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    #discover-categories > .section > .game-list > .game-entry .game-details .play-btn {
+        background: var(--hexAccent)
+    }
+    .thumbnail-2d-container img {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .thumbnail-2d-container img:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    button.btn-sm {
+        background-color: var(--hexAccent) !important;
+        border: 0px solid var(--hexAccent) !important;
+    }
+    .profile-container .asset-item span[title] {
+        transform: scale(1);
+        transition: all .2s;
+    }
+    .profile-container .asset-item span[title]:hover {
+        transform: scale(0.95);
+        transition: all .2s;
+    }
+    #HomeContainer .profile-display-name {
+        color: var(--hexAccent) !important;
+    }
+    .is-studio {
+        border: 3px solid var(--studioColor) !important;
+    }
+    .is-play {
+        border: 3px solid var(--playingColor) !important;
+    }
+    .is-online {
+        border: 3px solid var(--onlineColor) !important;
+    }
+    @keyframes wobble {
+        0% {
+            transform: rotate(0deg)
         }
-        .customize-btn:hover {
-            transform: scale(0.95);
-            transition: all .2s;
+        30% {
+            transform: rotate(-30deg)
         }
-        #discover-categories>.section>.game-list>.game-entry .game-details .play-btn {
-            background: var(--hexAccent)
+        100% {
+            transform: rotate(360deg)
         }
+    }
+    .icon-logo-r-95,
+    .dark-theme .icon-logo-r-95 {
+        animation: wobble 2s infinite;
+    }
+    .dark-theme .avatar-container .avatar-card-image,
+    .dark-theme .avatar-container img {
+        background-color: var(--thumbBG) !important;
+    }
+    .game-card-thumb-container:before {
+        background: rgba(255, 255, 255, 0)
+    }
+    .game-card-container:hover .game-card-thumb-container:before {
+        opacity: 1 !important;
+    }
+    .thumbnail-2d-container img:hover {
+        border-radius: 5px;
+    }
+    .btn-primary-md.carousel-controls.carousel-controls-visible:hover {
+        transform: scale(1);
+    }
+    .dark-theme .btn-control-sm:focus,
+    .dark-theme .btn-control-sm:hover {
+        border-color: #fff0
+    }
+    .dark-theme .btn-control-sm {
+        border-color: #fff0
+    }
+    .bottom-join-bar {
+        background: rgba(255, 255, 255, .35) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+    .dark-theme .stack .card-list .card-item {
+        background: rgba(255, 255, 255, .35) !important;
+        backdrop-filter: blur(10px) !important;
+        border-radius: 5px
+    }
+    #navbar-stream #notification-stream-icon-container {
+        filter: brightness(0) invert(1);
+    }
+    #navbar-stream:hover {
+        background-color: #fff0
+    }
+    #navbar-messages .icon-nav-messages {
+        filter: brightness(0) invert(1);
+    }
+    #navbar-messages:hover {
+        background-color: #fff0
+    }
+    #navbar-settings .icon-nav-settings {
+        filter: brightness(0) invert(1);
+    }
+    #navbar-settings:hover {
+        background-color: #fff0
+    }
+    #HomeContainer .profile-display-name {
+        margin-left: 10px;
+    }
+    .avatar-back .thumbnail-2d-container {
+        background-image: var(--avatarBG) !important;
+        background-size: cover !important;
+        background-position: bottom !important;
+        background-repeat: no-repeat !important;
+    }
 }
