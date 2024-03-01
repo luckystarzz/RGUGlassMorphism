@@ -2,16 +2,18 @@
 @name RGU Glassmorphism
 @namespace roblox.com
 @description A custom glassmorphism based theme for RoGold Ultimate!
-@version 1.1.2
+@version 1.2.0
 @license CC BY-NC-SA 4.0
 @advanced color hexAccent " Accent Color 1 (HEX) " #fc686f
 @advanced color rgbAccent " Accent Color 1 (RGB) " rgb(252, 104, 111)
+@advanced color textColor " Primary Text Color (HEX) " #fff
 @advanced color accent2 " Accent Color 2 (HEX or RGB) " #ff9200
 @advanced color playingColor " Status Color: Playing Game " #00ff4f
 @advanced color onlineColor " Status Color: Online " #00aaff
 @advanced color studioColor " Status Color: In Studio " #ffa600
 @advanced color thumbBG " Image Thumbnail Background Color " #fecdb2
 @advanced text customBanner " Custom Banner (URL) " "https://github.com/valk-ryx/RGUGlassMorphism/blob/developer-preview/themeassets/banner.png?raw=true"
+@advanced text avatarBG " Avatar Editor Background (URL) " "https://github.com/valk-ryx/RGUGlassMorphism/blob/developer-preview/themeassets/avatareditorbackgroundv2.jpeg?raw=true"
 @advanced color bannerGlowColor " Banner Glow (HEX or RGB) " #ffa455
 @advanced color bg1 " Background Color 1 " rgba(252, 124, 92, 1)
 @advanced color bg2 " Background Color 2 " rgba(252, 132, 92, 1)
