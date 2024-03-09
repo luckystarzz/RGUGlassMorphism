@@ -1,6 +1,10 @@
-# Glass Morphism
+# RGU Glassmorphism (Legacy)
 
 The beautiful design language of Glassmorphism, brought to Roblox through CSS.
+
+***Important Note:***
+
+*RGU Glassmorphism is currently undergoing a complete recode, please do not expect this version to be maintained regularly as it is now scrapped. The recoded version will replace it when finished but may take some time. It will completely rethink what this theme is capable of, and I hope you like it when it comes out.*
 
 # Licensing:
 [RGU Glassmorphism](https://github.com/valk-ryx/RGUGlassMorphism) © 2024 by [valk_ryx](https://github.com/valk-ryx) is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1) 
